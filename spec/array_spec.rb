@@ -89,6 +89,7 @@ end
 describe "first_second_and_third_students" do
   it "should return the correct Array of values" do
     expect(first_second_and_third_students).to eql(["Adele", "Beyoncé", "Cardi B"]), "The students Adele, Beyoncé and Cardi B were not returned as an array"
-    
+    student_names = ["Adele", "Beyonce", "Cardi B", "Lady Gaga", "Nicki Minaj", "Rihanna"]
+    return student_names[0..2]
   end
 end
